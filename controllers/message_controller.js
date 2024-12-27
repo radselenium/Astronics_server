@@ -24,11 +24,6 @@ module.exports.getOneMessage = function (req, res) {
     whereClause.messageType = req.query.messageType;
   }
 
-  // Filter by documentId if provided
-  if (req.query.documentId) {
-    whereClause.documentID = req.query.documentId;
-  }
-
   if (req.query.status && Array.isArray(req.query.status)) {
     whereClause.status = { in: req.query.status };
   } else {
