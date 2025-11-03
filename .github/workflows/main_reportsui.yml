@@ -52,4 +52,4 @@ jobs:
           app-name: 'ReportsUI'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_28C4A184BF774882A1CD54530CDE64C9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_57F8177D28EE4712BAF8E7176F113AFA }}
